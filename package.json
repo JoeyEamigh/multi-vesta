@@ -1,6 +1,6 @@
 {
   "name": "multi-vesta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library to interact with multiple Vestaboards",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
