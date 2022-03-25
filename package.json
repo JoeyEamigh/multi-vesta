@@ -1,0 +1,32 @@
+{
+  "name": "multi-vesta",
+  "version": "0.1.0",
+  "description": "Library to interact with multiple Vestaboards",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "repository": "https://github.com/joeyeamigh/multi-vesta",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput",
+    "build": "rimraf ./dist && tsc --build"
+  },
+  "author": "Joey Eamigh",
+  "license": "MIT-ish",
+  "devDependencies": {
+    "@types/node": "^16.11.26",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0",
+    "eslint-config-alloy": "^4.5.1",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
